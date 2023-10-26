@@ -1,45 +1,48 @@
-h1, #carrousel {
-    text-align: center;
+h1,
+#carrousel {
+  text-align: center;
 }
 
 .navbar {
-    background-color: #6c6c6d !important;
+  background-color: #6c6c6d !important;
 }
 
-.navbar-nav .nav-link, .container-fluid .navbar-brand {
-    color: white;
-    margin-right: 80px;
+.navbar-nav .nav-link,
+.container-fluid .navbar-brand {
+  color: white;
+  margin-right: 80px;
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-.left, .right {
-    flex: 1;
-    text-align: right; 
+.left,
+.right {
+  flex: 1;
+  text-align: right;
 }
 
 .lista ul {
-    padding: 0;
-    margin-right: 20px;
+  padding: 0;
+  margin-right: 20px;
 }
 
 .lista li {
-    margin: 0;
-    padding: 7px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 0;
-    width: 200px;
+  margin: 0;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 0;
+  width: 200px;
 }
 
 .row {
-    background-color: rgba(241, 241, 241, 0.828);
+  background-color: rgba(241, 241, 241, 0.828);
 }
 
 .btn {
-    color: white;
-    padding: 0;
+  color: white;
+  padding: 0;
 }
