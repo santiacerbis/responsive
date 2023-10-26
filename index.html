@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Responsive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">LOREM IPSUM</a>
+        <!-- Botón de menú para dispositivos móviles -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Lista de navegación en la barra de navegación -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Dolor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sit</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-disabled="true">Amet</a>
+                </li>
+            </ul>
+            <!-- Botón de opciones para dispositivos móviles con menú desplegable -->
+            <div class="btn-group">
+                <button class="btn btn-secondary d-lg-none" href="#" role="button"  data-bs-toggle="dropdown"> Opciones
+                </button>
+                <!-- Menú desplegable de opciones -->
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Opcion 1</a></li>
+                    <li><a class "dropdown-item" href="#">Opcion 2</a></li>
+                    <li><a class="dropdown-item" href="#">Opcion 3</a></li>
+                    <li><a class="dropdown-item" href="#">Opcion 4</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Barra de búsqueda en la barra de navegación -->
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+    </div>
+</nav>
+
+<br>
+<br>
+<h1>  Lorem ipsum...</h1>
+<!-- Carrousel-->
+<div id="carrousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <p class="carousel-text">..Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+        <div class="carousel-item">
+            <p class="carousel-text">..sed do eiusmod tempor incididunt ut labore..</p>
+        </div>
+        <div class="carousel-item">
+            <p class="carousel-text">.. Donec sapien ante, accumsan ut, sodales commodo,</p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <!-- Lista de opciones -->
+    <div class="lista d-lg-block d-none">
+        <ul style="list-style: none;">
+            <li>Opcion 1</li>
+            <li>Opcion 2</li>
+            <li>Opcion 3</li>
+            <li>Opcion 4</li>
+        </ul>
+    </div>
+    <!-- Contenido en la parte derecha -->
+    <div class="right">
+        <div class="container text-lg-start">
+            <div class="row">
+                <div class="col">
+                    <!-- Texto en la columna 1 -->
+                    Lorem Ipsum dolor sit amet, consectetuer adipiscing elit. Duis tellus.
+                    <div class="col">
+                        <!-- Texto en la columna 2 -->
+                        Donec ante dolor, iaculis nec, gravidaac, cursus in, eros. Mauris vestibulum, felis et egestasullamcorper,
+                        <br>
+                        <br>
+                        purus nibh vehicula sem, eu egestas antenisl non justo. Fusce tincidunt,
+                    </div>
+                </div>
+                <div class="col">
+                    <!-- Texto en la columna 3 -->
+                    lorem nev dapibus consectetuer, leo orci mollis ipsum, eget suscipit erospurus in ante.
+                    <br>
+                    <br>
+                    At ipsum vitae est lacinia tincidunt. Maecenas elit orci,gravida ut, molestie non, venenatis vel, lorem.
+                    Mauris atipsum vitae est lacinia tincidunt. Maecenas elit orci, gravida ut, molestie non, venenatis vel,lorem.
+                </div>
+                <div class="col">
+                    <!-- Texto en la columna 4 -->
+                    Sed lacinia. Suspendisse potenti. Sed ultrucies cursus lectus. In id magna sit amet nibhsuspicit euismod.
+                    <br>
+                    <br>
+                    Integer enim. Donec sapien ante, accumsan ut, sodales commodo, auctorquis, lacus. Maecenas a elit lacinia urna posuere sodales. Curabitur pede pede, molestie id,blandit vitae, varius ac, purus.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
